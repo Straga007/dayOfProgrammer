@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class ChatCommand {
+// создайте перечисление ChatCommand со следующими значениями:
+//    MAP,
+//    RECYCLABILITY,
+//    BONUS
+enum ChatCommand {
+    MAP,
+    RECYCLABILITY,
+    BONUS
 }

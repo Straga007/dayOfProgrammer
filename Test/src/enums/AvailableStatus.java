@@ -1,3 +1,5 @@
+package enums;
+
 public class AvailableStatus {
     public enum Status {
         NEW,

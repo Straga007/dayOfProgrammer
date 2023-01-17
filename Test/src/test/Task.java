@@ -1,12 +1,13 @@
+package test;
 
 public class Task {
 
-    String taskName;
-    String taskDetail;
-    String status;
+     String taskName;
+     String taskDetail;
+    public String status;
 
-    int ID;
-    int epicID;
+     int ID;
+     public int epicID;
 
     public Task(String taskName, String taskDetail, String status, int ID) {
         this.taskName = taskName;
@@ -72,7 +73,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
+        return "test.Task{" +
                 "taskName='" + taskName + '\'' +
                 ", taskDetail='" + taskDetail + '\'' +
                 ", status='" + status + '\'' +

@@ -1,3 +1,5 @@
+package test;
+
 import enums.AvailableStatus;
 import test.Epic;
 import test.Subtask;
@@ -137,7 +139,7 @@ public class Manager {
 
     @Override
     public String toString() {
-        return "Manager{" +
+        return "test.Manager{" +
                 "taskMap=" + taskMap+"\n" +
                 ", newEpicMap=" + newEpicMap+"\n" +
                 ", subtaskMap=" + subtaskMap+"\n" +
